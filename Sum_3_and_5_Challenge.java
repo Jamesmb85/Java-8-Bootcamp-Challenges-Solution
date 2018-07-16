@@ -17,28 +17,28 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         
-		//define variables
-		int counter = 0;
+	//define variables
+	int counter = 0;
         int sum = 0;
         
-		for(int i = 1; i < 1000; i++){
-			//both conditions need too be met to enter if statement
-            if(i%3==0 && i%5== 0){
-                System.out.println("The value that is divisible by 3 or 5 is: " + i);
+	for(int i = 1; i < 1000; i++){
+		//both conditions need too be met to enter if statement
+    		if(i%3==0 && i%5== 0){
+			System.out.println("The value that is divisible by 3 or 5 is: " + i);
 
-                //increase counter by 1
-                counter++;
+			//increase counter by 1
+			counter++;
 
-                //increase variable by i
-                sum+=i;
-                System.out.println("The sum is: " + sum);
+			//increase variable by i
+			sum+=i;
+			System.out.println("The sum is: " + sum);
 
-                //breaking statement
-                if(counter == 5){
-                    break;
-                }
+			//breaking statement
+			if(counter == 5){
+	   			 break;
+			}
 
-            }
+   		 }
         }
 
     }
