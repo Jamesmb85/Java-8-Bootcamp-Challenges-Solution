@@ -22,7 +22,7 @@ public class Main {
         //To read numerical values of a certain data type XYZ, the function to use is nextXYZ().
         int value1 = sc.nextInt();
 
-        System.out.println("Enter the first integer you want to compare");
+        System.out.println("Enter the second integer you want to compare");
 
 
         // Numerical data input
