@@ -3,7 +3,7 @@ package com.company;
 //import the scanner class
 import java.util.Scanner;
 
-//Write a function that returns the sum of all of the digits
+//Write a function that returns the sum of all of the even digits in an integer
 
 public class Main {
 
