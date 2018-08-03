@@ -3,7 +3,7 @@ package com.company;
 //import the scanner class
 import java.util.Scanner;
 
-//Write a function that determine if two of the three inputs have the same last digit
+//Write a function that determine ithe Greatest Common Divisor between 2 numbers
 
 public class Main {
 
