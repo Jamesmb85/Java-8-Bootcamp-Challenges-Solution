@@ -44,7 +44,7 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        //create an object of type car and initialize it with the new keyword
+        //create an object of type Banking and initialize it with the new keyword
         //instantiation via new operator and
         //initialization via default constructor of class Banking
         Banking james = new Banking();
