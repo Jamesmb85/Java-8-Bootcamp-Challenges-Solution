@@ -81,7 +81,7 @@ class Honda extends Car{
         If the superclass does not have a no-argument constructor, you will get a compile-time error.
         Object does have such a constructor, so if Object is the only superclass, there is no problem.*/
         super(4, "Honda Accord");
-        //we are initializing the variables from the base class
+        //we are initializing the constructor from the base class
     }
 
     //override the methods
@@ -105,6 +105,7 @@ class Honda extends Car{
 class Acura extends Car{
     //default constructor
     public Acura() {
+	//we are initializing the constructor from the base class
         super(6, "Acrua Srx");
     }
 
@@ -129,6 +130,7 @@ class Acura extends Car{
 class BMW extends Car{
     //overload constructor
     public BMW() {
+    	//we are initializing the constructor from the base class
         super(8, "BMW Coupe");
     }
 
